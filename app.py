@@ -19,7 +19,9 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 # Config
 # ─────────────────────────────────────────────
-CSV_PATH =  r"C:\Users\parip\Downloads\archive (5).zip"
+CSV_PATH = "student_lifestyle_100k.csv"
+st.write("Current Folder:", os.getcwd())
+st.write("CSV Exists:", os.path.exists(CSV_PATH))
 import os
 
 print("CSV_PATH:", CSV_PATH)
