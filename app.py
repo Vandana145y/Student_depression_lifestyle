@@ -19,7 +19,7 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 # Config
 # ─────────────────────────────────────────────
-CSV_PATH =  r"C:\Users\parip\Downloads\archive (5)\student_lifestyle_100k.csv"
+CSV_PATH = "student_lifestyle_100k.csv"
 import os
 
 print("CSV_PATH:", CSV_PATH)
