@@ -213,9 +213,3 @@ if submitted:
         st.dataframe(X_input)
 
 st.divider()
-st.caption(
-    "Note: this tool is for educational/demo purposes only and is not a "
-    "diagnostic instrument. If you or someone you know is struggling, "
-    "please reach out to a mental health professional or local support resources."
-)
-
